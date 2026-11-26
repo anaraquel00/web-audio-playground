@@ -2,7 +2,7 @@
 
 ## Scope and data boundaries
 
-This is a public, independent portfolio repository. Use synthetic data and independent implementations only. Do not access or reuse proprietary RQS Studio code, `/home/ana/RQS-SYSTEM`, production credentials, customer data, or commercial RQS infrastructure. Do not commit environment files, private keys, tokens, dependency trees, or generated build artifacts.
+This is a public, independent portfolio repository. Use synthetic data and independent implementations only. Do not access or reuse proprietary RQS Studio code, the private commercial RQS workspace, production credentials, customer data, or commercial RQS infrastructure. Do not commit environment files, private keys, tokens, dependency trees, or generated build artifacts.
 
 ## Reporting a vulnerability
 

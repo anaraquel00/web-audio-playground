@@ -14,4 +14,6 @@ See `AGENTS.md` for PASS / HOLD / FAIL gate criteria and `SECURITY.md` for priva
 
 ## Licensing
 
-No license has been granted yet. Do not add a license or third-party content that requires a license decision without the repository owner's explicit authorization. Contributions may need a licensing decision before they can be accepted.
+Contributions must comply with the applicable MIT license and the scope defined in README.md.
+
+Contributors must have permission to submit their work under the applicable terms. Separate licensing decisions require explicit maintainer authorization.

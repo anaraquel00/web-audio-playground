@@ -44,3 +44,10 @@ test-results/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local deployment configuration
+.vercel/
+
+# Sanitized environment templates only
+!.env.example
+!*.env.example

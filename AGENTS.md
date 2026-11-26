@@ -14,7 +14,7 @@ This repository is a public, independent engineering portfolio project. These in
 
 ## Security and independence
 
-- Never access, copy, or reuse proprietary RQS Studio source code or the `/home/ana/RQS-SYSTEM` directory for this project.
+- Never access, copy, or reuse proprietary RQS Studio source code or the the private commercial RQS workspace directory for this project.
 - Never use production credentials, real customer data, or commercial RQS infrastructure. Do not make production connections.
 - Use synthetic datasets and independent implementations. Confirm that external assets and dependencies may be redistributed before adding them.
 - Keep environment files, credentials, dependencies, and generated artifacts out of Git. Scan proposed changes for secret exposure before submission.
@@ -29,3 +29,7 @@ For every proposed change, report one decision with evidence:
 - **FAIL:** a confirmed security boundary violation or failed acceptance criterion remains unresolved.
 
 A PASS assessment does not authorize merge. Only the human owner may authorize merging.
+
+## Technical isolation
+
+Repository instructions do not constitute filesystem, network, or credential isolation. External agents must receive only the permissions required for this repository.
