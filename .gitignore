@@ -1,0 +1,53 @@
+# Local environment and credentials
+.env
+.env.*
+*.env
+*.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+.aws/
+.npmrc
+.pypirc
+
+# Dependencies and virtual environments
+node_modules/
+.pnpm-store/
+.yarn/
+.venv/
+venv/
+__pycache__/
+
+# Generated outputs, caches, reports, and logs
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+.angular/
+.cache/
+.pytest_cache/
+*.tsbuildinfo
+*.log
+playwright-report/
+test-results/
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local deployment configuration
+.vercel/
+
+# Sanitized environment templates only
+!.env.example
+!*.env.example
